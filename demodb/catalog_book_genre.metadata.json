@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"testdb.catalog_book_genre"},{"v":2,"unique":true,"key":{"id":1},"name":"__primary_key__","ns":"testdb.catalog_book_genre"},{"v":2,"unique":true,"key":{"book_id":1,"genre_id":1},"name":"catalog_book_genre_book_id_genre_id_d15f6922_uniq","ns":"testdb.catalog_book_genre"}]}
