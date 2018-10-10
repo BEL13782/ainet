@@ -32,6 +32,8 @@ Download and extract the models manually or run setup.sh
 
 
 ```
+
+
 | Model name  | Speed | COCO mAP | Outputs |
 | ------------ | :--------------: | :--------------: | :-------------: |
 | [ssd_mobilenet_v1_coco](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz) | fast | 21 | Boxes |
@@ -40,9 +42,15 @@ Download and extract the models manually or run setup.sh
 | [faster_rcnn_resnet101_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_11_06_2017.tar.gz) | medium | 32 | Boxes |
 | [faster_rcnn_inception_resnet_v2_atrous_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017.tar.gz) | slow | 37 | Boxes |
 
+# Download demo video
+```
+mkdir videos
+Download and copy video https://www.dropbox.com/s/9qp095kv6a2slev/ab-easy2.mp4?dl=0
+``` 
 
 # Install dependecies
 ```
+cd ..
 pip install -r requirements.txt
 ```
 
