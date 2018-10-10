@@ -2,7 +2,7 @@
 This application runs a tensorflow/opencv module for object detection and image processing, and a django web module for interacting with the data output from the first module.
 Neither of them can be run as standalone apps
 
-# Prerequesites :
+# Prerequisites :
 
 Windows 10 or Ubuntu 16.04
 
@@ -15,6 +15,8 @@ CuDNN ver 7.5
 Tensorflow >= 1.6.0
 
 MongoDB 3.4
+
+Django 2.0.3
 
 Please visit https://developer.nvidia.com/ for Cuda and CuDNN installation instructions
 ...
