@@ -18,7 +18,7 @@ Markdown==2.6.11
 mongoengine==0.15.0
 networkx==2.1
 numpy==1.14.1
-Pillow==5.0.0
+Pillow==6.2.0
 pipreqs==0.4.9
 protobuf==3.5.2
 pymongo==3.6.1
